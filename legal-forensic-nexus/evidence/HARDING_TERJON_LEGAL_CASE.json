@@ -1,0 +1,34 @@
+{
+  "case_id": "HARDING_TERJON_001",
+  "case_name": "R v Harding & Terjon",
+  "jurisdiction": "NSW",
+  "case_type": "Criminal",
+  
+  "summary": "Please tell me: What are the main charges and issues in this case?",
+  
+  "timeline": [
+    {
+      "date": "2023-01-01T10:00:00",
+      "description": "Tell me: What happened first?",
+      "location": "Where did it happen?"
+    }
+  ],
+  
+  "issues": [
+    {
+      "type": "procedural",
+      "description": "What procedural problems occurred?",
+      "severity": "high"
+    }
+  ],
+  
+  "affidavits": [
+    {
+      "id": "AFF001",
+      "deponent": "Who signed the affidavit?",
+      "content": "What does the affidavit say?",
+      "signature": false,
+      "issues": ["Is it signed?", "Any problems with it?"]
+    }
+  ]
+}
