@@ -1,0 +1,48 @@
+{
+  "case_id": "HARDING_TERJON_001",
+  "case_name": "R v Harding & Terjon",
+  "jurisdiction": "NSW",
+  "case_type": "Criminal",
+  
+  "summary": "Complex criminal case with approximately 4000 evidence files. Analysis pending full document upload.",
+  
+  "file_inventory": {
+    "total_files": 4000,
+    "location": "External hard drive",
+    "status": "Awaiting upload",
+    "estimated_categories": {
+      "affidavits": "Unknown quantity",
+      "police_statements": "Multiple",
+      "forensic_evidence": "Bodycam, audio recordings",
+      "documents": "Warrants, court filings, correspondence"
+    }
+  },
+  
+  "known_issues": [
+    {
+      "type": "procedural",
+      "description": "Large volume of evidence requires systematic analysis",
+      "severity": "high"
+    },
+    {
+      "type": "data_management",
+      "description": "4000 files require categorization and prioritization",
+      "severity": "medium"
+    }
+  ],
+  
+  "preliminary_concerns": [
+    "Potential ICCPR Article 14 violations (fair trial)",
+    "Evidence management and chain of custody with large file volume",
+    "Need to identify Tier 1 priority documents from 4000 files"
+  ],
+  
+  "immediate_actions": [
+    "Categorize files by type (affidavits, statements, forensic, etc.)",
+    "Identify unsigned or improperly dated affidavits",
+    "Extract timeline from available documents",
+    "Flag any files showing procedural irregularities"
+  ],
+  
+  "notes": "Initial assessment based on case overview. Full analysis pending document upload."
+}
