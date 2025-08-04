@@ -392,7 +392,7 @@ class MultiAgentOrchestrator:
         """Generate comprehensive analysis report."""
         self.logger.info("\n=== GENERATING REPORT ===")
         
-        report_path = Path("analysis_report_") / f"{self.results['case_id']}_{datetime.now():%Y%m%d_%H%M%S}.json"
+        report_path = Path(f"analysis_report_{self.results['case_id']}_{datetime.now():%Y%m%d_%H%M%S}.json")
         
         # Calculate summary statistics
         self.results["summary"] = {
