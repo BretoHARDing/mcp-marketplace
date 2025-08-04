@@ -1,0 +1,79 @@
+{
+  "nexus_version": "1.0.0",
+  "agents": {
+    "Claude_Opus_4": {
+      "agent_name": "Claude_Opus_4",
+      "role": "Legal Engineer",
+      "enabled": true,
+      "capabilities": [
+        "ICCPR/ECHR parsing",
+        "Jurisdiction-aware contradiction modeling",
+        "Legal tool coding",
+        "Document reconciliation",
+        "Prompt compilation"
+      ],
+      "task_queue": [
+        "Affidavit contradiction scanner",
+        "ICCPR violation detector",
+        "LegalBERT parser interface",
+        "Forensic metadata audit tool"
+      ],
+      "interlocks": {
+        "GPT4o": "sends extracted metadata",
+        "Gemini": "sends timestamp traces",
+        "LegalBERT": "receives statute mapping"
+      }
+    },
+    "GPT4o": {
+      "agent_name": "GPT-4o",
+      "role": "Core Thread Synthesizer",
+      "enabled": true,
+      "capabilities": [
+        "Metadata validation",
+        "Contradiction scanning",
+        "Affidavit synthesis"
+      ],
+      "api_endpoint": "https://api.openai.com/v1/chat/completions",
+      "model": "gpt-4o"
+    },
+    "Gemini_Pro": {
+      "agent_name": "Gemini Pro",
+      "role": "Backend Trace Engine",
+      "enabled": true,
+      "capabilities": [
+        "Timestamp extraction",
+        "Bodycam/audio forensic detection",
+        "Custody logging"
+      ],
+      "api_endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+    },
+    "LegalBERT": {
+      "agent_name": "LegalBERT",
+      "role": "Legal Parser",
+      "enabled": true,
+      "capabilities": [
+        "Case law parsing",
+        "Statutory matching",
+        "Breach flagging"
+      ],
+      "model_path": "nlpaueb/legal-bert-base-uncased",
+      "api_type": "huggingface"
+    }
+  },
+  "legal_frameworks": {
+    "international": ["ICCPR", "ECHR", "UDHR"],
+    "australian": ["Kable_Principle", "EvidenceAct1995", "CrimesAct1900"],
+    "constitutional": ["separation_of_powers", "judicial_independence", "rule_of_law"]
+  },
+  "data_paths": {
+    "affidavits": "/workspace/legal-forensic-nexus/data/affidavits",
+    "case_files": "/workspace/legal-forensic-nexus/data/cases",
+    "forensic_data": "/workspace/legal-forensic-nexus/data/forensic",
+    "outputs": "/workspace/legal-forensic-nexus/data/outputs"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "/workspace/legal-forensic-nexus/logs/nexus.log",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}
