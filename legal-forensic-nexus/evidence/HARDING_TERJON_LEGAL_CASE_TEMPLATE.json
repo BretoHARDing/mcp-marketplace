@@ -1,0 +1,163 @@
+{
+  "case_id": "HARDING_TERJON_001",
+  "case_name": "R v Harding & Terjon",
+  "jurisdiction": "NSW",
+  "case_type": "Criminal",
+  "filing_date": "2024-01-15",
+  
+  "summary": "Criminal proceedings involving allegations of [INSERT CHARGES]. Key issues include potential ICCPR Article 14 violations, procedural irregularities, and questions regarding the admissibility of evidence under the Evidence Act 1995.",
+  
+  "parties": {
+    "prosecution": "Crown",
+    "defendants": ["Harding", "Terjon"],
+    "legal_representation": {
+      "prosecution": "[PROSECUTOR NAME]",
+      "defense": "[DEFENSE COUNSEL]"
+    }
+  },
+  
+  "timeline": [
+    {
+      "date": "2023-06-01T10:00:00",
+      "description": "Initial arrest of defendants",
+      "location": "[LOCATION]",
+      "participants": ["Harding", "Terjon", "Officer Smith"]
+    },
+    {
+      "date": "2023-06-01T14:00:00",
+      "description": "Police interview conducted",
+      "location": "Police Station",
+      "participants": ["Harding", "Detective Brown"]
+    }
+  ],
+  
+  "statements": [
+    {
+      "id": "STMT001",
+      "deponent": "Officer Smith",
+      "date": "2023-06-02",
+      "content": "[INSERT STATEMENT CONTENT - e.g., 'The defendant was arrested at 10:00 AM at their residence. They cooperated with the arrest.']"
+    },
+    {
+      "id": "STMT002",
+      "deponent": "Witness Jones",
+      "date": "2023-06-03",
+      "content": "[INSERT WITNESS STATEMENT]"
+    }
+  ],
+  
+  "affidavits": [
+    {
+      "id": "AFF001",
+      "deponent": "Officer Smith",
+      "date_signed": "2023-06-05",
+      "path": "/workspace/legal-forensic-nexus/data/tier1-affidavits/smith_affidavit.pdf",
+      "signature": true,
+      "content": "[AFFIDAVIT SUMMARY OR KEY EXCERPTS]",
+      "issues": ["Missing witness signature", "Date discrepancy"]
+    },
+    {
+      "id": "AFF002",
+      "deponent": "Detective Brown",
+      "date_signed": null,
+      "path": "/workspace/legal-forensic-nexus/data/tier1-affidavits/brown_affidavit.pdf",
+      "signature": false,
+      "content": "[UNSIGNED AFFIDAVIT CONTENT]",
+      "issues": ["Unsigned", "Undated"]
+    }
+  ],
+  
+  "evidence_files": [
+    {
+      "id": "EVD001",
+      "type": "document",
+      "description": "Arrest warrant",
+      "path": "/workspace/legal-forensic-nexus/data/tier1-evidence/arrest_warrant.pdf",
+      "metadata": {
+        "created": "2023-05-30T09:00:00Z",
+        "modified": "2023-05-30T09:00:00Z",
+        "author": "Magistrate Johnson",
+        "hash": "sha256:abcd1234...",
+        "size": "125KB"
+      }
+    },
+    {
+      "id": "EVD002",
+      "type": "photograph",
+      "description": "Crime scene photos",
+      "path": "/workspace/legal-forensic-nexus/data/tier1-evidence/scene_photos/",
+      "metadata": {
+        "created": "2023-06-01T11:30:00Z",
+        "device": "Canon EOS",
+        "location": "GPS coordinates",
+        "hash": "sha256:efgh5678..."
+      }
+    }
+  ],
+  
+  "forensic_media": [
+    {
+      "id": "FOR001",
+      "type": "bodycam",
+      "description": "Officer Smith bodycam footage",
+      "path": "/workspace/legal-forensic-nexus/data/tier1-forensic/bodycam_smith.mp4",
+      "duration": "00:45:00",
+      "timestamps": [
+        {
+          "time": "00:10:00",
+          "event": "Arrival at scene"
+        },
+        {
+          "time": "00:15:00",
+          "event": "First contact with defendant"
+        }
+      ]
+    },
+    {
+      "id": "FOR002",
+      "type": "audio",
+      "description": "Police interview recording",
+      "path": "/workspace/legal-forensic-nexus/data/tier1-forensic/interview_audio.mp3",
+      "duration": "01:30:00"
+    }
+  ],
+  
+  "issues": [
+    {
+      "type": "procedural",
+      "description": "Defendant denied access to lawyer during initial questioning",
+      "severity": "high",
+      "legal_basis": "ICCPR Article 14(3)(b)"
+    },
+    {
+      "type": "evidentiary",
+      "description": "Chain of custody gap for physical evidence",
+      "severity": "medium",
+      "legal_basis": "Evidence Act 1995 s138"
+    },
+    {
+      "type": "constitutional",
+      "description": "Executive directive influenced prosecution decision",
+      "severity": "critical",
+      "legal_basis": "Kable Principle"
+    }
+  ],
+  
+  "human_rights_concerns": [
+    "Potential violation of right to fair trial (ICCPR Article 14)",
+    "Possible arbitrary detention (ICCPR Article 9)",
+    "Denial of legal representation"
+  ],
+  
+  "executive_involvement": "Minister directed prosecution priorities in similar cases",
+  
+  "requested_analysis": [
+    "Affidavit contradiction detection",
+    "ICCPR violation assessment",
+    "Kable Principle analysis",
+    "Evidence admissibility under Evidence Act 1995",
+    "Forensic metadata integrity check"
+  ],
+  
+  "notes": "This is a template. Replace all [BRACKETED] placeholders with actual case data."
+}

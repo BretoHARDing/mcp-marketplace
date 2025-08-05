@@ -1,0 +1,289 @@
+{
+  "case_id": "HARDING_TERJON_2023",
+  "case_name": "Bret Jason Harding v Terjon Services Pty Ltd",
+  "jurisdiction": "NSW",
+  "case_type": "Civil/Criminal - Complex Multi-Party Litigation",
+  "filing_date": "2022-05-26",
+  
+  "summary": "Complex case involving a truck rollover on 19 July 2019, with criminal charges against Harding, civil litigation between Terjon and Harding, and subsequent TfNSW infrastructure damage claims. Key issues include VIN rebirthing allegations, retroactive employment documentation, dual representation concerns, and potential suppression of vehicle defect evidence.",
+  
+  "parties": {
+    "plaintiff": "Transport for NSW (TfNSW)",
+    "defendants": ["Bret Jason Harding", "Terjon Services Pty Ltd"],
+    "legal_representation": {
+      "TfNSW": "Matthew Gerathy",
+      "Harding": "Roderick Storie",
+      "Terjon": "Rhys Boudib (CCSG Legal)"
+    }
+  },
+  
+  "timeline": [
+    {
+      "date": "2019-05-01T09:00:00",
+      "description": "Harding begins driving for Terjon after informal introduction",
+      "location": "NSW",
+      "participants": ["Harding", "Terjon Services"],
+      "significance": "No formal interview, no employment contract signed"
+    },
+    {
+      "date": "2019-07-19T10:00:00",
+      "description": "Truck rollover accident on M5 East Motorway entrance",
+      "location": "Marsh St ramp, Arncliffe",
+      "participants": ["Harding", "St George Police"],
+      "evidence": ["Police report", "Channel 7 video", "Drug test results"],
+      "significance": "Major infrastructure damage, Harding tests positive for methamphetamines"
+    },
+    {
+      "date": "2019-07-29T09:00:00",
+      "description": "Joe Dimech signs internal incident report",
+      "location": "Terjon Services",
+      "participants": ["Joe Dimech"],
+      "significance": "Internal investigation documentation"
+    },
+    {
+      "date": "2019-08-02T09:00:00",
+      "description": "HMIA deems truck a total loss but repairable write-off",
+      "location": "Insurance assessment",
+      "participants": ["HMIA assessor"],
+      "significance": "Truck valued as salvageable, not non-repairable"
+    },
+    {
+      "date": "2020-04-29T09:00:00",
+      "description": "Terjon sues Harding in Local Court for truck damage",
+      "location": "Sutherland Local Court",
+      "case_number": "2020/00127865",
+      "amount": "$85,345.54",
+      "significance": "Employment status dispute begins"
+    },
+    {
+      "date": "2021-07-08T09:00:00",
+      "description": "Local Court judgment for Terjon against Harding",
+      "location": "Sutherland Local Court",
+      "amount": "$85,345",
+      "significance": "Court finds 'serious & wilful misconduct', rejects Employee Liability Act defence"
+    },
+    {
+      "date": "2022-03-09T09:00:00",
+      "description": "Supreme Court appeal settled by consent",
+      "location": "NSW Supreme Court",
+      "case_number": "2021/00221375",
+      "outcome": "Costs order $31,743.91, caveat on Harding's property",
+      "significance": "Harding withdraws appeal, agrees to property caveat"
+    },
+    {
+      "date": "2022-05-26T09:00:00",
+      "description": "TfNSW files District Court suit against Harding & Terjon",
+      "location": "NSW District Court",
+      "case_number": "2022/00152637",
+      "amount": "~$310,000",
+      "significance": "Infrastructure damage claim, both parties as co-defendants"
+    },
+    {
+      "date": "2022-11-22T09:00:00",
+      "description": "Terjon files Cross-Claim against Harding",
+      "location": "NSW District Court",
+      "participants": ["Scarlett Eadie (Terjon solicitor)"],
+      "significance": "Terjon seeks indemnity from Harding"
+    },
+    {
+      "date": "2023-07-25T09:00:00",
+      "description": "TfNSW and Terjon sign Deed of Settlement",
+      "participants": ["TfNSW", "Terjon", "CCSG Legal"],
+      "terms": "Terjon pays $200,000, assigns judgment against Harding",
+      "significance": "Harding not initially party to deed"
+    },
+    {
+      "date": "2023-08-30T09:00:00",
+      "description": "Harding and TfNSW execute Deed of Settlement",
+      "participants": ["Harding", "TfNSW", "Roderick Storie"],
+      "terms": "Harding agrees to $110,000 judgment",
+      "significance": "TfNSW agrees not to enforce beyond secured assets"
+    },
+    {
+      "date": "2023-09-01T09:00:00",
+      "description": "Notice of Assignment signed",
+      "participants": ["Harding", "Roderick Storie (witness)"],
+      "terms": "Transfer of Terjon's judgments to TfNSW",
+      "significance": "Local Court ($85,345) and Supreme Court ($31,743.91) debts assigned"
+    },
+    {
+      "date": "2023-09-04T09:00:00",
+      "description": "Consent Judgment entered by District Court",
+      "outcome": "TfNSW judgment: $200k against Terjon, $110k against Harding",
+      "participants": ["All parties via lawyers"],
+      "significance": "Trial vacated, dual representation concerns arise"
+    }
+  ],
+  
+  "evidence_categories": {
+    "vin_rebirthing": {
+      "description": "Truck re-registered from CK89AJ to XO29MP after being written off",
+      "evidence": ["HMIA assessor report", "Service records", "Registration documents"],
+      "significance": "Possible VIN tampering and insurance fraud"
+    },
+    "accident_evidence": {
+      "police_report": "St George Police attendance report",
+      "media": ["Channel 7 video showing normal speed turn", "News reports of 20+ defect notices"],
+      "mechanical": ["Brake failure claims", "Load imbalance evidence"],
+      "toxicology": "Positive methamphetamine test"
+    },
+    "employment_documentation": {
+      "pre_accident": "No written contract, no tax file declaration",
+      "post_accident": "Retroactively signed documents classifying as contractor",
+      "conflicts": "Terjon treated Harding as employee then contractor depending on context"
+    },
+    "legal_proceedings": {
+      "local_court": "Case #2020/00127865 - Judgment exhibits",
+      "supreme_court": "Case #2021/00221375 - Appeal documents",
+      "district_court": "Case #2022/00152637 - All pleadings and evidence"
+    }
+  },
+  
+  "key_documents": [
+    {
+      "id": "DOC001",
+      "type": "Insurance Report",
+      "description": "HMIA Assessor Report declaring repairable write-off",
+      "date": "2019-08-02",
+      "significance": "States truck has NOT suffered non-repairable damage",
+      "annexure": "Annexure G to Dimech Affidavit"
+    },
+    {
+      "id": "DOC002",
+      "type": "Police Report",
+      "description": "St George Police crash investigation",
+      "date": "2019-07-19",
+      "findings": "Drug impairment, but mechanical issues noted"
+    },
+    {
+      "id": "DOC003",
+      "type": "Employment Documents",
+      "description": "Retroactively signed contractor agreements",
+      "date": "Post-2019-07-19",
+      "issues": ["Backdated", "Irregular witness signatures", "Contradicts earlier positions"]
+    },
+    {
+      "id": "DOC004",
+      "type": "Deed of Settlement",
+      "description": "Harding-TfNSW Settlement Agreement",
+      "date": "2023-08-29",
+      "witnessed_by": "Roderick Storie",
+      "terms": "$110,000 judgment, assignment of Terjon's claims"
+    }
+  ],
+  
+  "affidavits": [
+    {
+      "id": "AFF001",
+      "deponent": "Bret Jason Harding",
+      "date_signed": "Unknown",
+      "content": "Claims accident caused by imbalanced load and ineffective brakes, not just drug use",
+      "contradictions": ["Conflicts with guilty plea admitting fault", "Blames mechanical failure vs earlier admission"]
+    },
+    {
+      "id": "AFF002",
+      "deponent": "Joe Dimech",
+      "date_signed": "2021",
+      "content": "Annexes HMIA report, discusses truck damage",
+      "annexures": ["Annexure G - HMIA Assessor Report"],
+      "witness": "JP certification noted"
+    },
+    {
+      "id": "AFF003",
+      "deponent": "Chloe Aldridge",
+      "role": "Passenger in truck",
+      "content": "Witness to accident",
+      "date_signed": "Unknown"
+    }
+  ],
+  
+  "issues": [
+    {
+      "type": "procedural",
+      "description": "Dual representation - Storie consenting to judgment against own client while coordinating with opposing parties",
+      "severity": "critical",
+      "legal_basis": "Legal professional conduct rules, fiduciary duty"
+    },
+    {
+      "type": "evidentiary",
+      "description": "Retroactive creation of employment documents post-accident",
+      "severity": "high",
+      "legal_basis": "Evidence Act 1995 - authenticity and admissibility"
+    },
+    {
+      "type": "criminal",
+      "description": "Potential VIN rebirthing - truck re-registered after write-off",
+      "severity": "critical",
+      "legal_basis": "Criminal fraud provisions"
+    },
+    {
+      "type": "suppression",
+      "description": "Immediate towing of wreck, 20+ defect notices not prosecuted",
+      "severity": "high",
+      "legal_basis": "Potential suppression of exculpatory evidence"
+    },
+    {
+      "type": "consent",
+      "description": "Questions about Harding's informed consent to settlement",
+      "severity": "high",
+      "legal_basis": "Contract law - duress, undue influence"
+    }
+  ],
+  
+  "contradictions": [
+    {
+      "id": "C001",
+      "type": "Employment Status",
+      "version1": "Terjon claims Harding is employee for liability protection",
+      "version2": "Terjon claims Harding is contractor to avoid vicarious liability",
+      "documents": ["Local Court pleadings", "Post-accident agreements"]
+    },
+    {
+      "id": "C002",
+      "type": "Accident Causation",
+      "version1": "Harding admits fault due to drug impairment (police statement)",
+      "version2": "Harding blames mechanical failure and load imbalance (affidavit)",
+      "documents": ["Police statement", "Defence affidavit"]
+    },
+    {
+      "id": "C003",
+      "type": "Vehicle Status",
+      "version1": "Truck written off as CK89AJ",
+      "version2": "Same VIN appears re-registered as XO29MP",
+      "documents": ["HMIA report", "Registration records"]
+    }
+  ],
+  
+  "human_rights_concerns": [
+    "Right to fair trial - dual representation issues",
+    "Due process - retroactive document creation",
+    "Access to justice - potential coercion in settlement"
+  ],
+  
+  "forensic_concerns": [
+    "Chain of custody for wrecked vehicle - immediate towing",
+    "Mechanical inspection reports - potential suppression",
+    "Timeline of document creation - backdating evidence"
+  ],
+  
+  "financial_summary": {
+    "local_court_judgment": "$85,345.00",
+    "supreme_court_costs": "$31,743.91",
+    "total_assigned_to_tfnsw": "$117,088.91",
+    "tfnsw_infrastructure_claim": "~$310,000",
+    "settlement_amounts": {
+      "terjon_to_tfnsw": "$200,000",
+      "harding_to_tfnsw": "$110,000"
+    }
+  },
+  
+  "requested_analysis": [
+    "Dual representation ethics violation assessment",
+    "Document authenticity and backdating analysis",
+    "VIN rebirthing criminal implications",
+    "Suppression of evidence evaluation",
+    "Informed consent validity under duress",
+    "Conflicts of interest mapping",
+    "Timeline contradiction analysis"
+  ]
+}
